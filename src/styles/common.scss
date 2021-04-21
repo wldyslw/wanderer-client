@@ -1,0 +1,34 @@
+@import './vars.scss';
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: $color-link;
+
+    &:hover {
+        color: $color-dark;
+        border-bottom-color: $color-primary !important;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+small {
+    color: $color-gray-dark;
+    font-family: 'Roboto Mono', monospace;
+}

@@ -6,14 +6,11 @@
     <router-view />
 </template>
 
+<style src="normalize.css/normalize.css"></style>
+
 <style lang="scss">
-#app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&family=Roboto+Mono&display=swap');
+@import '@/styles/common';
 
 #nav {
     padding: 30px;
